@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba - Conversor</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="titulo">
+            <h1 class="titulo1">Conversor de monedas nacional</h1>
+        </div>
+        
+        <div class="box">
+
+            <h2 class="titulo2">Pesos CLP</h2>
+            
+            <input 
+            type="number" 
+            id="ingresarMonto" 
+            placeholder="Ingrese el monto en CLP" 
+            class="input-amount"
+            min="0" 
+            step="1"/>
+            
+            <label for="seleccionarMoneda">Moneda a convertir:</label>
+            
+            <select id="seleccionarMoneda">
+                <option value="">Seleccione moneda</option>
+            </select>
+            
+            <button id="btnConvertir">Convertir</button>
+            
+            <p id="resultado" class="resultado">...</p>
+        </div>
+        
+        <canvas id="historial"></canvas>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
+

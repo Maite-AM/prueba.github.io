@@ -1,0 +1,100 @@
+body {
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+}
+
+.titulo {
+    border-bottom: 1.5px solid white;
+    padding-bottom: 10px;             
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.titulo1 { 
+    margin: 0; 
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+
+input[type="number"] {
+    background-color: #ecf0f1;
+    font-family: 'Raleway', sans-serif; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+select {
+    background-color: #ecf0f1;
+    font-family: 'Raleway', sans-serif; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+button {
+    background-color: #1abc9c;
+    font-family: 'Raleway', sans-serif; 
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #16a085; 
+}
+
+
+#resultado {
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif; 
+    color: white;
+    padding: 10px;
+    border: 1.5px solid #1abc9c;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+canvas {
+    background-color: #34495e;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+
+
+
